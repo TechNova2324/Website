@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - TechMeta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4F46E5',
+                        secondary: '#1E40AF',
+                        accent: '#60A5FA',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation (same as index.html) -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="/" class="text-2xl font-bold text-primary">TechMeta</a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="/" class="text-gray-600 hover:text-primary px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="/about.html" class="text-gray-600 hover:text-primary px-3 py-2 rounded-md text-sm font-medium">About</a>
+                        <a href="/services.html" class="text-primary px-3 py-2 rounded-md text-sm font-medium">Services</a>
+                        <a href="/blog.html" class="text-gray-600 hover:text-primary px-3 py-2 rounded-md text-sm font-medium">Blog</a>
+                        <a href="/contact.html" class="text-gray-600 hover:text-primary px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-12 bg-gradient-to-r from-primary to-secondary">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
+                    Our Services
+                </h1>
+                <p class="mt-3 max-w-md mx-auto text-base text-gray-100 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+                    Comprehensive technology solutions for your business needs
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="text-base text-primary font-semibold tracking-wide uppercase">What We Offer</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Comprehensive Technology Solutions
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    From cloud computing to AI solutions, we provide end-to-end technology services
+                    to help your business thrive in the digital age.
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                    <!-- Service 1 -->
+                    <div class="relative p-6 bg-white rounded-lg shadow-lg hover-lift">
+                        <div class="text-center">
+                            <div class="h-12 w-12 mx-auto bg-primary rounded-lg flex items-center justify-center">
+                                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+                                </svg>
+                            </div>
+                            <h3 class="mt-4 text-lg font-medium text-gray-900">Cloud Solutions</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Scalable cloud infrastructure and migration services for your business.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="relative p-6 bg-white rounded-lg shadow-lg hover-lift">
+                        <div class="text-center">
+                            <div class="h-12 w-12 mx-auto bg-primary rounded-lg flex items-center justify-center">
+                                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                            </div>
+                            <h3 class="mt-4 text-lg font-medium text-gray-900">AI & Machine Learning</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Custom AI solutions to automate and optimize your business processes.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="relative p-6 bg-white rounded-lg shadow-lg hover-lift">
+                        <div class="text-center">
+                            <div class="h-12 w-12 mx-auto bg-primary rounded-lg flex items-center justify-center">
+                                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                                </svg>
+                            </div>
+                            <h3 class="mt-4 text-lg font-medium text-gray-900">Cybersecurity</h3>
+                            <p class="mt-2 text-base text-gray-500">
+                                Comprehensive security solutions to protect your digital assets.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="text-base text-primary font-semibold tracking-wide uppercase">Pricing</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Choose Your Plan
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    Flexible pricing options to suit your business needs
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                    <!-- Basic Plan -->
+                    <div class="relative p-8 bg-white rounded-lg shadow-lg hover-lift">
+                        <div class="text-center">
+                            <h3 class="text-lg font-medium text-gray-900">Basic</h3>
+                            <p class="mt-4">
+                                <span class="text-4xl font-extrabold text-gray-900">$99</span>
+                                <span class="text-base font-medium text-gray-500">/month</span>
+                            </p>
+                            <ul class="mt-6 space-y-4">
+                                <li class="flex items-center">
+                                    <svg class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    <span class="ml-3 text-gray-500">Basic cloud storage</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    <span class="ml-3 text-gray-500">Email support</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    <span class="ml-3 text-gray-500">Basic security features</span>
+                                </li>
+                            </ul>
+                            <a href="/contact.html" class="mt-8 block w-full bg-primary text-white text-center px-6 py-3 rounded-md hover:bg-opacity-90">
+                                Get Started
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Pro Plan -->
+                    <div class="relative p-8 bg-white rounded-lg shadow-lg hover-lift border-2 border-primary">
+                        <div class="text-center">
+                            <h3 class="text-lg font-medium text-gray-900">Pro</h3>
+                            <p class="mt-4">
+                                <span class="text-4xl font-extrabold text-gray-900">$299</span>
+                                <span class="text-base font-medium text-gray-500">/month</span>
+                            </p>
+                            <ul class="mt-6 space-y-4">
+                                <li class="flex items-center">
+                                    <svg class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    <span class="ml-3 text-gray-500">Advanced cloud storage</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    <span class="ml-3 text-gray-500">24/7 priority support</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    <span class="ml-3 text-gray-500">Advanced security features</span>
+                                </li>
+                            </ul>
+                            <a href="/contact.html" class="mt-8 block w-full bg-primary text-white text-center px-6 py-3 rounded-md hover:bg-opacity-90">
+                                Get Started
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Enterprise Plan -->
+                    <div class="relative p-8 bg-white rounded-lg shadow-lg hover-lift">
+                        <div class="text-center">
+                            <h3 class="text-lg font-medium text-gray-900">Enterprise</h3>
+                            <p class="mt-4">
+                                <span class="text-4xl font-extrabold text-gray-900">Custom</span>
+                            </p>
+                            <ul class="mt-6 space-y-4">
+                                <li class="flex items-center">
+                                    <svg class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    <span class="ml-3 text-gray-500">Custom solutions</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    <span class="ml-3 text-gray-500">Dedicated support team</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <svg class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    <span class="ml-3 text-gray-500">Custom security solutions</span>
+                                </li>
+                            </ul>
+                            <a href="/contact.html" class="mt-8 block w-full bg-primary text-white text-center px-6 py-3 rounded-md hover:bg-opacity-90">
+                                Contact Sales
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="bg-gray-800">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-white text-sm font-semibold mb-4">Company</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/about.html" class="text-gray-300 hover:text-white">About</a></li>
+                        <li><a href="/blog.html" class="text-gray-300 hover:text-white">Blog</a></li>
+                        <li><a href="/careers.html" class="text-gray-300 hover:text-white">Careers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white text-sm font-semibold mb-4">Resources</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/documentation.html" class="text-gray-300 hover:text-white">Documentation</a></li>
+                        <li><a href="/support.html" class="text-gray-300 hover:text-white">Support</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white text-sm font-semibold mb-4">Legal</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/privacy.html" class="text-gray-300 hover:text-white">Privacy</a></li>
+                        <li><a href="/terms.html" class="text-gray-300 hover:text-white">Terms</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white text-sm font-semibold mb-4">Connect</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white">Twitter</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">LinkedIn</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-8 border-t border-gray-700 pt-8">
+                <p class="text-gray-400 text-sm text-center">
+                    © 2024 TechMeta. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
